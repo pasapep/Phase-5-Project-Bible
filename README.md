@@ -11,6 +11,25 @@
 3. A tablebook belongs to a user and a bible. 
 
 ## ERD Diagram 
+![erd ](https://user-images.githubusercontent.com/117331219/224897750-4b35266e-865d-434b-8d5d-790e3d7801a2.png)
+
+## Validations 
+Users: 
+validates_uniqueness_of:email
+validates :name, presence : true 
+
+bible: 
+validates :book, presence: true
+validates :chapters, presence: true 
+
+date 
+validates : date, date.strptime("%m%d%y"
+
+## REACT Components 
+![React Component](https://user-images.githubusercontent.com/117331219/224904683-6babaaf3-22d4-4892-a2b3-652040cc1b3e.png)
+
+## Wireframe 
+
 
 ## Introduction
 
