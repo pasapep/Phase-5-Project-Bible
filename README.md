@@ -1,8 +1,16 @@
-# React/Rails Project Setup Guide
+# Phase 5 Project 
 
-## Learning Goals
+## Project Description 
 
-- Set up a project with a Rails API backend and React frontend from scratch
+- This app will allow users to read bible and keep track of the reading progress  
+
+## Models 
+
+1. A user has many tablebooks and has many bibles through tablebooks. 
+2. A bible has many tablebooks and has many users through tablebooks
+3. A tablebook belongs to a user and a bible. 
+
+## ERD Diagram 
 
 ## Introduction
 
@@ -22,7 +30,7 @@ The `example-project` directory in this repo was created by following the steps
 in this guide, so you can also use that as a reference to see the finished
 product.
 
-## Table of Contents
+## ERD 
 
 - [Environment Setup](#environment-setup)
   - [Requirements](#requirements)
